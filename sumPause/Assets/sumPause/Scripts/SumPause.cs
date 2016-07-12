@@ -10,8 +10,10 @@ public class SumPause : MonoBehaviour {
     public static event PauseAction pauseEvent;
 
     // Variables set via inspector
-    public bool useEvent = false, detectEscapeKey = true;
-    public Sprite pausedSprite, playingSprite;
+    [SerializeField]
+    bool useEvent = false, detectEscapeKey = true;
+    [SerializeField]
+    Sprite pausedSprite, playingSprite;
 
     // Link to button's image
     Image image;
