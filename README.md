@@ -18,7 +18,7 @@ are no worries on usage rights.
 - (Optional) Select different icons from the 'Sprites' folder and attach it to the prefab (Don't forget the 
     default sprite on the Image component)
 
-**Check 'SampleScene' for example of extended setup options **
+**Check 'SampleScene' for example of extended setup options**
 
 ## OPTIONS
 The following options are available on the 'SumPause' component
@@ -31,8 +31,8 @@ The following options are available on the 'SumPause' component
 
 ### Notifications/Events
 If you need to notify other objects of a pause/resume state make sure the *Use Event* option is checked on 
-the SumPause component. This will cause the **SumPause.pauseEvent** event to trigger. Now any object 
-can listen for, and react to, the event by adding a listener (C# Example) - 
+the SumPause component. This will cause the **SumPause.pauseEvent** event to trigger. Now any script can 
+react to changes by adding a listener (C# Example) - 
 
 ```csharp
     // Add the event listener
