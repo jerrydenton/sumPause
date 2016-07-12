@@ -85,7 +85,6 @@ public class SumPause : MonoBehaviour {
             // What to do when unpaused
             Time.timeScale = 1; // Resume normal game speed
         }
-
     }
 
 
