@@ -7,6 +7,7 @@ can easily change the look and feel of everything right in the editor. Licensed 
 are no worries on usage rights.
 
 - Project Homepage: http://www.cyberlogical.com/sumpause/
+- Unity Asset Store: **Coming Soon**
 - Repository: https://github.com/jerrydenton/sumPause
 
 ## SETUP
@@ -17,7 +18,7 @@ are no worries on usage rights.
     (Don't forget the default sprite on the Image component)
 - Your game now has a pause button!
 
-**Check 'SampleScene' for example of proper setup**
+**Check 'SampleScene' for example of extended setup options **
 
 ## OPTIONS
 The following options are available on the 'SumPause' component
