@@ -13,10 +13,10 @@ are no worries on usage rights.
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
 - Copy the sumPause prefab into your Canvas.
+- Your game now has a pause button! Try it out.
 - (Optional) Adjust position on screen in the RectTransform component
-- (Optional) Select different icons from the 'Sprites' folder and attach it to the prefab
-    (Don't forget the default sprite on the Image component)
-- Your game now has a pause button!
+- (Optional) Select different icons from the 'Sprites' folder and attach it to the prefab (Don't forget the 
+    default sprite on the Image component)
 
 **Check 'SampleScene' for example of extended setup options **
 
