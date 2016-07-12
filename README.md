@@ -2,9 +2,9 @@
 
 ## OVERVIEW
 sumPause is a simple, lightweight, and open-source, Unity Asset for managing a paused/unpaused state. 
-Drag-and-drop the prefab into your scene and instantly have a pause button. Uses the native Unity UI so you 
-can easily change the look and feel of everything right in the editor. Licensed under MIT and CC0 so there 
-are no worries on usage rights.
+Drag-and-drop the prefab into your scene and instantly have a working pause button. Uses the native 
+Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT 
+and CC0 so there are no worries on usage rights.
 
 - Project Homepage: http://www.cyberlogical.com/sumpause/
 - Unity Asset Store: **Coming Soon**
