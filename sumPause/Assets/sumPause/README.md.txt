@@ -2,9 +2,9 @@
 
 ## OVERVIEW
 sumPause is a simple, lightweight, and open-source, Unity Asset for managing a paused/unpaused state. 
-Drag-and-drop the prefab into your scene and instantly have a pause button. Uses the native Unity UI so you 
-can easily change the look and feel of everything right in the editor. Licensed under MIT and CC0 so there 
-are no worries on usage rights.
+Drag-and-drop the prefab into your scene and instantly have a working pause button. Uses the native 
+Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT 
+and CC0 so there are no worries on usage rights.
 
 - Project Homepage: http://www.cyberlogical.com/sumpause/
 - Unity Asset Store: **Coming Soon**
@@ -12,13 +12,13 @@ are no worries on usage rights.
 
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
-- Copy the sumPause prefab into your Canvas.
+- Copy the included sumPause prefab into your Canvas.
 - Your game now has a pause button! Try it out.
 - (Optional) Adjust position on screen in the RectTransform component
 - (Optional) Select different icons from the 'Sprites' folder and attach it to the prefab (Don't forget the 
     default sprite on the Image component)
 
-**Check 'SampleScene' for example of extended setup options **
+**Check 'SampleScene' for example of extended setup options**
 
 ## OPTIONS
 The following options are available on the 'SumPause' component
@@ -31,8 +31,8 @@ The following options are available on the 'SumPause' component
 
 ### Notifications/Events
 If you need to notify other objects of a pause/resume state make sure the *Use Event* option is checked on 
-the SumPause component. This will cause the **SumPause.pauseEvent** event to trigger. Now any object 
-can listen for, and react to, the event by adding a listener (C# Example) - 
+the SumPause component. This will cause the **SumPause.pauseEvent** event to trigger. Now any script can 
+react to changes by adding a listener (C# Example) - 
 
 ```csharp
     // Add the event listener
