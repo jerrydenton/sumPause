@@ -1,14 +1,11 @@
 # sumPause v1.0
 
-## OVERVIEW
-sumPause is a simple, lightweight, and open-source, Unity Asset for managing a paused/unpaused state. 
-Drag-and-drop the prefab into your scene and instantly have a working pause button. Uses the native 
-Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT 
-and CC0 so there are no worries on usage rights.
+- Unity Asset Store: *Submitted, Pending Approval* <<< **Current stable release**
+- Project Homepage: http://jerrydenton.github.io/sumPause/
+- Developer Contact: https://cyberlogical.com/sumpause/
 
-- Project Homepage: http://www.cyberlogical.com/sumpause/
-- Unity Asset Store: **Coming Soon**
-- Repository: https://github.com/jerrydenton/sumPause
+## OVERVIEW
+sumPause is a simple, lightweight, and open-source, Unity Asset for managing a paused/unpaused state. Drag-and-drop the prefab into your scene and instantly have a working pause button. Uses the native Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT and CC0 so there are no worries on usage rights.
 
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
@@ -30,9 +27,7 @@ The following options are available on the 'SumPause' component
 ## EXTENDED FEATURES
 
 ### Notifications/Events
-If you need to notify other objects of a pause/resume state make sure the *Use Event* option is checked on 
-the SumPause component. This will cause the **SumPause.pauseEvent** event to trigger. Now any script can 
-react to changes by adding a listener (C# Example) - 
+If you need to notify other objects of a pause/resume state make sure the *Use Event* option is checked on the SumPause component. This will cause the **SumPause.pauseEvent** event to trigger. Now any script can react to changes by adding a listener (C# Example) - 
 
 ```csharp
     // Add the event listener
@@ -60,8 +55,7 @@ react to changes by adding a listener (C# Example) -
 ```
 
 ### Changing the pause action
-The only thing happening by default on a pause/resume is a stop/start, of game time. This is fine for most 
-cases, but if you need to do something extra look for, and edit, the following code in SumPause.cs -
+The only thing happening by default on a pause/resume is a stop/start, of game time. This is fine for most cases, but if you need to do something extra look for, and edit, the following code in SumPause.cs -
 
 ```csharp
     /// <summary>This is what we want to do when the game is paused or unpaused.</summary>
