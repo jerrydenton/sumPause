@@ -19,7 +19,7 @@ sumPause is a simple, lightweight, and open-source, Unity Asset for managing a p
 
 ## OPTIONS
 The following options are available on the 'SumPause' component
-- *Use Event* : Whether to trigger an event for other objects to listen for [bool, def: false]
+- *Use Event* : Whether to trigger an event for other objects to listen for [bool, def: true]
 - *Detect Escape Key* : Whether to pause on Escape Key press [bool, def: true]
 - *Paused Sprite* : Sprite to display when game is paused (Additional sprites included in 'Sprites folder)
 - *Playing Sprite* : Sprite to display when game is playing (Additional sprites included in 'Sprites' folder)
