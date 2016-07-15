@@ -1,14 +1,14 @@
 # sumPause v1.0
 
+- Unity Asset Store: *Submitted, Pending Approval* <<< **Current stable release**
+- Project Homepage: http://jerrydenton.github.io/sumPause/
+- Developer Contact: https://cyberlogical.com/sumpause/
+
 ## OVERVIEW
 sumPause is a simple, lightweight, and open-source, Unity Asset for managing a paused/unpaused state. 
 Drag-and-drop the prefab into your scene and instantly have a working pause button. Uses the native 
 Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT 
 and CC0 so there are no worries on usage rights.
-
-- Project Homepage: http://www.cyberlogical.com/sumpause/
-- Unity Asset Store: **Coming Soon**
-- Repository: https://github.com/jerrydenton/sumPause
 
 ## SETUP
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
