@@ -1,6 +1,6 @@
 # sumPause v1.0
 
-- Unity Asset Store: *Submitted, Pending Approval* <<< **Current stable release**
+- Unity Asset Store: http://u3d.as/x0P <<< **Current stable release**
 - Project Homepage: http://jerrydenton.github.io/sumPause/
 - Developer Contact: https://cyberlogical.com/sumpause/
 
