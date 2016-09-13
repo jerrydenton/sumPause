@@ -1,4 +1,4 @@
-# sumPause v1.0
+# sumPause
 
 - Unity Asset Store: *Submitted, Pending Approval* <<< **Current stable release**
 - Project Homepage: http://jerrydenton.github.io/sumPause/

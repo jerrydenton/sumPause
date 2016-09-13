@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+[HelpURL("https://jerrydenton.github.io/sumPause/")]
 [RequireComponent(typeof(Image))]
 /// <summary>Singleton class for controlling pause functions.</summary>
 public class SumPause : MonoBehaviour {
